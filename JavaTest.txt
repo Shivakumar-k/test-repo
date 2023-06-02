@@ -1,0 +1,64 @@
+Java Test
+1.1 public static void main(String args[])
+    
+	Here public is access specifier it can be accesses from anywhere in package, static is non access specifier it is optional it loads first ,
+	void is return type which means nothing to return, main is a method name inorder execute the program main method is compulsary.
+
+1.2 class and objects
+	Class is a blueprint, it as states and behaviours.
+	object is super class of every class.
+	
+1.3 JVM, JRE, JDK
+ 
+JVM(java virtual machine)- it is present in the form virtually
+JRE(Java Runtime Environment) - loads,verifies,runs the code it creats runtime environment.
+JDK(java Development kit)- it is nothing but JRE + set of libraries.
+
+4. Constructor 
+    Constructor is a special method which do not have return type.
+	name of constructor should same as a class name.
+	
+	Types of constructor:
+	parameterised constructor: it accepts parameter if we declare with constructor
+	Non parameterised constructor: the constructor with no parameter is non parameterised constructor
+	
+5. this keyword and this()
+   this keyword is used differentiate local variable with class level variable.
+   this keyword is also used to point local variable
+   
+   this() is used to chain one constructor to other constructor within a class.
+   
+7. static main method:
+   Static methods will load in first in jvm. static method will not create objects of method
+   
+   types of method:
+   parameterised methods
+   non parameterised methods
+   
+10. yes we can have private constructor but the scope will be within a class.
+    yes we can overload the constructor based on the parameters it will call the constructor.
+	
+	class details{
+	String name;
+	
+	    details(){
+		s.o.p("without parameters")
+		}
+		
+		details(String name){
+		this.name=name;
+		s.o.p("with parameters")
+		}
+	
+		}
+	
+	}
+    
+
+   
+   
+
+	
+    	
+	
+
